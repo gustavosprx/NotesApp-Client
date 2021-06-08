@@ -1,8 +1,8 @@
+# Deployment [NotesApp](https://quirky-lovelace-6bc7aa.netlify.app/) https://quirky-lovelace-6bc7aa.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### Deployment [NotesApp](https://quirky-lovelace-6bc7aa.netlify.app/).
 
 ## Available Scripts
 
