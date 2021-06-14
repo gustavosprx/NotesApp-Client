@@ -35,13 +35,14 @@ const Note = ({note}) => {
       <div className="col-12 col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
         <div className="card ml-3 mr-3 mt-5">
           <div className="card-body">
-            <p className="card-text"><b>{note.name}</b></p>
+            <p className="card-text mt-3"><b>{note.name}</b></p>
             <div className="d-grid gap-2">
               <button
                 onClick={()=>{handleClick(note._id)}}
-                className="btn btn-danger mt-2 text-center"
+                className="btn btn-danger mt-3 text-center"
               >
-                Eliminar
+               
+                <i class="far fa-trash-alt"></i>
               </button>
             </div>
           </div>

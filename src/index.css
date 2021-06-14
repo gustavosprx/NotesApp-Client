@@ -1,10 +1,8 @@
 body {
   margin: 0;
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-  background: #42275a;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  overflow: hidden;
+  background: #343A40;
+  overflow: hidden
 }
 
 .register, .login {
@@ -12,32 +10,32 @@ body {
   border-radius: 2px rgb(12, 10, 10) solid;
 }
 .register, .login label{
-  color: #FFFF;
+  color: #E1E8EB;
 }
 .registerH2, .loginH2 {
-  color: #FFFF;
+  color: #FFC107;
   text-align: center;
 }
 
 h1 {
-  color: #dc3545;
+  color: #FFC107;
 }
 
 h5{
-  color: #FFFF;
+  color: #E1E8EB;
 }
 
 ul li .nav-link{
-  color: #FFFF;
+  color: #E1E8EB;
 }
 
 /* cambiar el color de fondo a la barra */
 nav.navbar {
-  background-color: #252323f8;
+  background-color: #7952B3;
 }
 
 nav div .navbar-brand {
-  color: #dc3545;
+  color: #FFC107;
   margin-left: 30px;
   
 }
@@ -45,13 +43,10 @@ nav div .navbar-brand {
 .card {
   width: 15rem;
   background-color: #252323f8;
-  color: #dc3545;
+  color: #FFC107;
 }
 
-.alerta-ok {
-  background-color: rgb(109,211,109);
-  color: rgb(2,103,2)
-}
+
 .alerta-error {
   margin-top: 20px;
   color:#FFFF;
@@ -59,29 +54,42 @@ nav div .navbar-brand {
 }
 
 .btn-blank:hover {
-  color: #dc3545;
+  color: #FFC107;
 }
 
 h2 {
-  color: #dc3545;
+  color:#FFC107;
 }
 
 dt {
   font-size: 20px;
-  color: #FFFF;
+  color: #E1E8EB;
 }
 dd {
     font-size: 20px;
-    color: #dc3545;
+    color: #FFC107;
 }
 
 .index {
-  background-color: #25232398;
+  background-color: #343A40;
   border-radius: 15px solid ;
   -webkit-border-radius:15px;
   margin: auto;
 }
 
 .author{
-  color: #FFFF;
+  color: #E1E8EB;
 }
+
+.btn-danger,
+.btn-danger:active,
+.btn-danger:visited,
+.btn-danger:focus {
+    background-color: #7952B3;
+    border-color: #7952B3;
+}
+.btn-danger:hover {
+  background-color: #343A40;
+  border-color: #7952B3;
+}
+ 
